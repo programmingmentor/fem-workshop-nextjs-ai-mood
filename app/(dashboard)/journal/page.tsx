@@ -17,6 +17,8 @@ const getEntries = async () => {
     },
   })
 
+  await analyze('Hello World!');
+
   return entries
 }
 
